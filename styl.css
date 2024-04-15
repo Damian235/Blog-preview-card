@@ -1,0 +1,78 @@
+body{
+    background-color: #F4D04E;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    max-width: 384px;
+    border-radius: 20px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    text-align: left;
+    box-shadow: 10px 10px 0px black;
+    
+}
+.image img{
+    border-radius: 10px;
+    width: 100%;
+}
+.main{
+    display: grid;
+    row-gap: 12px;
+    width: 100%;
+    max-width: 336;
+}
+.Learning{
+    background-color: #F4D04E;
+    width: 82px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: black;
+    font-weight: bold;
+    margin: 0px;
+    font-family: Figtree;
+}
+.image, .main{
+    margin-bottom: 24px;
+}
+.Date{
+    font-family: Figtree;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin: 0px;
+}
+h1{
+    font-family: Figtree;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+h1:hover{
+    color: #F4D04E;
+}
+.description{
+    margin: 0px;
+    color: #7F7F7F;
+    font-size: 15px;
+    line-height: 20px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.footer p {
+    font-weight: bold;
+    font-family: Figtree;
+}
+.footer img{
+    width: 32px;
+    height: 32px;
+}
